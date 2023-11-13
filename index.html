@@ -23,11 +23,11 @@
 
 <body class="b_box">
     <!-- header classico -->
-    <header class="h_box row d-flex align-items-center">
+    <header class="h_box row d-flex align-items-center p-2">
         <div class="col-1 d-flex justify-content-center">
             <img src="img/mobile-logo.png" width="30px" height="30px" alt=""></a>
         </div>
-        <div class="col-10">
+        <div class="col-10 d-flex justify-content-center">
             <input class="searchbar" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
         </div>
         <div class="col-1 d-flex justify-content-center">
@@ -36,17 +36,31 @@
     </header>
     <div class="row m-0 g-0">
         <!-- barra laterale -->
-        <section class="side_box col-1">
-
+        <section class="side_box p-2">
+            <div class="d-flex justify-content-center p-1">
+                <a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="d-flex justify-content-center p-1">
+                <a href=""><i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="d-flex justify-content-center p-1">
+                <a href=""><i class="fa-solid fa-signal" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="d-flex justify-content-center p-1">
+                <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+            </div>
         </section>
         <!-- pannello di controllo sezione -->
-        <section class="cpanel_box col-11 container-fluid">
+        <section class="cpanel_box container-fluid">
             <div class="cpanel_header col-12">
-
+                <div class="container d-flex">
+                    <h2>Nuovo Studente</h2>
+                    <button class="add_student">+</button>
+                </div>
             </div>
 
             <div class="cpanel_toolsdata col-12">
-
+                <span>ciao</span>
             </div>
         </section>
     </div>
