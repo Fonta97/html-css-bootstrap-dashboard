@@ -23,14 +23,16 @@
 
 <body class="b_box">
     <!-- header classico -->
-    <header class="h_box">
-        <nav class="navbar navbar-light bg-white">
-            <a class="navbar-brand"><img src="img/mobile-logo.png" width="30px" height="30px" alt=""></a>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
-            </form>
-        </nav>
-
+    <header class="h_box row d-flex align-items-center">
+        <div class="col-1 d-flex justify-content-center">
+            <img src="img/mobile-logo.png" width="30px" height="30px" alt=""></a>
+        </div>
+        <div class="col-10">
+            <input class="searchbar" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+        </div>
+        <div class="col-1 d-flex justify-content-center">
+            <i class="fa-solid fa-bell" style="color: #ffd500;"></i>
+        </div>
     </header>
     <div class="row m-0 g-0">
         <!-- barra laterale -->
