@@ -2,11 +2,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .breadcrumb-item+.breadcrumb-item::before {
     color: white;
 }
@@ -45,11 +40,10 @@ a {
     display: inline;
     height: 95vh;
     width: 90%;
-    background-color: red;
+    background-color: #1b72e8;
 }
 
 .cpanel_header {
-    background-color: #1b72e8;
     color: white;
 }
 
