@@ -16,6 +16,7 @@ a {
 }
 
 .h_box {
+    height: 5vh;
     background-color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -32,7 +33,7 @@ a {
 .side_box {
     display: inline;
     width: 10%;
-    height: 100vh;
+    height: 95vh;
     background-color: #142b41;
     background-image: url('/img/sidebar-bg.png');
     background-repeat: no-repeat;
@@ -42,20 +43,18 @@ a {
 
 .cpanel_box {
     display: inline;
+    height: 95vh;
     width: 90%;
     background-color: red;
-    height: 300px;
 }
 
 .cpanel_header {
     background-color: #1b72e8;
     color: white;
-    height: 300px;
 }
 
 .cpanel_toolsdata {
     background-color: white;
-    height: 700px;
 }
 
 .blue-white_buttons {
